@@ -1,7 +1,7 @@
  :root{
     --base: purple;
     --spacing: 10px;
-    --blur: 10px;
+    --blur: 5px;
  }
  body{
     text-align: center;
@@ -12,6 +12,9 @@
     filter: blur(var(--blur)); 
     height: 65vh;
     width: 20vw;
+    border-style:ridge;
+    border-color: darkblue;
+    border-width: var(--spacing);
  }
  div{
    margin-top: 7vh;
