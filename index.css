@@ -1,0 +1,14 @@
+ :root{
+    --base: yellow;
+    --spacing: 10px;
+    --blur: 10px;
+ }
+ body{
+    text-align: center;
+ }
+ img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur)); 
+ }
+ 
