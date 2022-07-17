@@ -1,5 +1,5 @@
  :root{
-    --base: yellow;
+    --base: purple;
     --spacing: 10px;
     --blur: 10px;
  }
@@ -10,5 +10,10 @@
     padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur)); 
+    height: 65vh;
+    width: 20vw;
  }
- 
+ div{
+   margin-top: 7vh;
+   margin-bottom: 6vh;
+ }
